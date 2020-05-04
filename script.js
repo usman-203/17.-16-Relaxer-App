@@ -20,3 +20,5 @@ function breathAnimation() {
     }, holdTime);
   }, breatheTime);
 }
+
+setInterval(breathAnimation, totalTime);
